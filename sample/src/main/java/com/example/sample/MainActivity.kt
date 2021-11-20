@@ -108,7 +108,7 @@ class MainActivity : AppCompatActivity() {
             popup.description = "#54564"
             popups!!.add(popup)
         }
-        dayView!!.setEvents(events)
         dayView!!.setPopups(popups)
+        dayView!!.setEvents(events)
     }
 }
